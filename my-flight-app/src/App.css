@@ -2,21 +2,82 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #09d3ac;
+.spinner {
+  height: 80px;
+  margin: auto;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/* new css for movie component */
+
+* {
+  box-sizing: border-box;
+}
+
+.App-header h2 {
+  margin: 0;
+}
+
+
+
+
+
+.errorMessage {
+  margin: auto;
+  font-weight: bold;
+  color: rgb(161, 15, 15);
+}
+
+
+.search {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+input[type="submit"] {
+  padding: 5px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  width: 80px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+  background-color: #282c34;
+  color: antiquewhite;
+}
+
+
+.search > input[type="text"]{
+  width: 40%;
+  min-width: 170px;
+}
+
+.flights {
+  margin-left: 593px;
+  margin-top: 35px;
+  margin-right: 549px;
 }
